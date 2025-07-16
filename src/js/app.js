@@ -43,13 +43,13 @@ function render(variables = {}) {
           <ul class="${variables.socialMediaPosition}">
 
           <!-- variables allow user-input || Default Social Media Links -->
-            <li><a href="${variables.twitter ||
+            <li><a href="https://twitter.com/${variables.twitter ||
               "https://twitter.com/4geeksacademy"}"><i class="fab fa-twitter"></i></a></li>
-            <li><a href="${variables.github ||
+            <li><a href="https://github.com/${variables.github ||
               "https://github.com/4geeksacademy"}"><i class="fab fa-github"></i></a></li>
-            <li><a href="${variables.linkedin ||
+            <li><a href="https://linkedin.com/${variables.linkedin ||
               "https://linkedin.com/school/4geeksacademy"}"><i class="fab fa-linkedin"></i></a></li>
-            <li><a href="${variables.Ig ||
+            <li><a href="https://instagram.com/${variables.Ig ||
               "https://instagram.com/4geeksacademy"}"><i class="fab fa-instagram"></i></a></li>
           </ul>
         </div>
